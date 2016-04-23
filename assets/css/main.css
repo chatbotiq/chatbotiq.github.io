@@ -157,7 +157,7 @@
 	}
 
 		h1 b, h2 b, h3 b, h4 b, h5 b, h6 b {
-			color: #64a9e9;
+			color: #e4392b;
 			font-weight: 300;
 		}
 
@@ -956,6 +956,16 @@
 			max-width: 30em;
 		}
 
+		#wrapper .row {
+    		display: table;
+    		width: 100%; /*Optional*/
+    		table-layout: fixed; /*Optional*/
+    		border-spacing: 10px; /*Optional*/
+}
+		#wrapper .column {
+    		display: table-cell;
+}
+
 		#wrapper footer {
 			color: #e6e8eb;
 		}
@@ -1165,7 +1175,7 @@
 			position: relative;
 			white-space: nowrap;
 			width: 11.25em;
-			height: 20em;
+			height: 25em;
 		}
 
 			#banner ul:after {
